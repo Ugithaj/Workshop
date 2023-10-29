@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Color Classifier</title>
+</head>
+<body>
+    <h1>Color Classifier</h1>
+    <form action="/get_color" method="post">
+        <label for="red_weight">Red Weight:</label>
+        <input type="number" name="weights" id="red_weight" step="0.01" required><br>
+
+        <label for="green_weight">Green Weight:</label>
+        <input type="number" name="weights" id="green_weight" step="0.01" required><br>
+
+        <label for="blue_weight">Blue Weight:</label>
+        <input type="number" name="weights" id="blue_weight" step="0.01" required><br>
+
+        <input type="submit" value="Classify">
+    </form>
+</body>
+</html>
